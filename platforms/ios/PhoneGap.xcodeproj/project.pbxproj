@@ -75,6 +75,15 @@
 		F891CEEF4D634AD8836CB37B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8307D30EB995426BAD8CA132 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F94DDA4AFA3646BF91ECDF2B /* ADBMobile_PhoneGap.m in Sources */ = {isa = PBXBuildFile; fileRef = BC201A02C1E24E5492703742 /* ADBMobile_PhoneGap.m */; };
 		FC7D4FBB37954033B3134B95 /* CDVFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5882AFF0A49479BC87461 /* CDVFileTransfer.m */; };
+		0EA7FE6D64E34A1F96CFDE14 /* FacebookConnectPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EC04FE1D754D70A6D681A2 /* FacebookConnectPlugin.m */; };
+		9D47F1C52D1D4E21AFA9D91D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6FAD80CF8447BCA4CC85EA /* FacebookSDK.framework */; };
+		4863C56C2A7243F49A50CF95 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F822A07640A1463391BDA1D4 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C428AE0328D940B5B372C28F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFF296D522F4819AB3D26A0 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CAF5DC9BA7E143C4B696B949 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FE47DFA151498091D049FC /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		42A6C3B3F1F5449687E2DC9E /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E1CE68E0E14C4A8604E6A8 /* IonicKeyboard.m */; };
+		745F77755E3642FF851860DD /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB04944774A547EAAE7F80D0 /* UIWebViewExtension.m */; };
+		68921BBFA3E14D4A8C500884 /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A3032A79D469EA453C699 /* SQLitePlugin.m */; };
+		D98F679DBF8A43FDAF1A56E7 /* YoikScreenOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = B38544EDB11848C4934E6050 /* YoikScreenOrientation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -204,6 +213,20 @@
 		F7CFD999956F4D13867B2C33 /* CoreLocation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = PhoneGap/config.xml; sourceTree = "<group>"; };
 		FD48CED150144861B05F661A /* CDVVibration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVVibration.h; path = org.apache.cordova.vibration/CDVVibration.h; sourceTree = "<group>"; };
+		C9EC04FE1D754D70A6D681A2 /* FacebookConnectPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "FacebookConnectPlugin.m"; path = "com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		11D0C49001634FDFA8C48498 /* FacebookConnectPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FacebookConnectPlugin.h"; path = "com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		8E6FAD80CF8447BCA4CC85EA /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "FacebookSDK.framework"; path = "PhoneGap/Plugins/com.phonegap.plugins.facebookconnect/FacebookSDK.framework"; sourceTree = "<group>"; };
+		F822A07640A1463391BDA1D4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Social.framework"; path = "System/Library/Frameworks/Social.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		DFFF296D522F4819AB3D26A0 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Accounts.framework"; path = "System/Library/Frameworks/Accounts.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		D2FE47DFA151498091D049FC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		91E1CE68E0E14C4A8604E6A8 /* IonicKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "IonicKeyboard.m"; path = "com.ionic.keyboard/IonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		FB04944774A547EAAE7F80D0 /* UIWebViewExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIWebViewExtension.m"; path = "com.ionic.keyboard/UIWebViewExtension.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		0CE8F0659F364A07BAC06BAA /* IonicKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IonicKeyboard.h"; path = "com.ionic.keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		AF8B290D37DB4D278F2E051B /* UIWebViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIWebViewExtension.h"; path = "com.ionic.keyboard/UIWebViewExtension.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4F0A3032A79D469EA453C699 /* SQLitePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SQLitePlugin.m"; path = "com.brodysoft.sqlitePlugin/SQLitePlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		D56E1242F3F64469BA69D4C9 /* SQLitePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SQLitePlugin.h"; path = "com.brodysoft.sqlitePlugin/SQLitePlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B38544EDB11848C4934E6050 /* YoikScreenOrientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "YoikScreenOrientation.m"; path = "net.yoik.cordova.plugins.screenorientation/YoikScreenOrientation.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		09D99CB0B4C341CD96F2FB1E /* YoikScreenOrientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "YoikScreenOrientation.h"; path = "net.yoik.cordova.plugins.screenorientation/YoikScreenOrientation.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +247,10 @@
 				F563AE3770174562A230B27D /* CoreMotion.framework in Frameworks */,
 				1B9297F16F1C45D7A74F448C /* AdobeMobileLibrary.a in Frameworks */,
 				5CCA322BE9A144948AB008F6 /* libsqlite3.dylib in Frameworks */,
+				9D47F1C52D1D4E21AFA9D91D /* FacebookSDK.framework in Frameworks */,
+				4863C56C2A7243F49A50CF95 /* Social.framework in Frameworks */,
+				C428AE0328D940B5B372C28F /* Accounts.framework in Frameworks */,
+				CAF5DC9BA7E143C4B696B949 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +355,10 @@
 				DF4776D8E9804C379B602AC6 /* CoreMotion.framework */,
 				3C9B7F14DF7649609D106623 /* AdobeMobileLibrary.a */,
 				8A881EE82D9A4D338A9C4324 /* libsqlite3.dylib */,
+				8E6FAD80CF8447BCA4CC85EA /* FacebookSDK.framework */,
+				F822A07640A1463391BDA1D4 /* Social.framework */,
+				DFFF296D522F4819AB3D26A0 /* Accounts.framework */,
+				D2FE47DFA151498091D049FC /* Security.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -397,6 +428,16 @@
 				BC201A02C1E24E5492703742 /* ADBMobile_PhoneGap.m */,
 				5FB9F29D903C433BBAD13C5E /* ADBMobile_PhoneGap.h */,
 				8F8CBA35D58540F0A8048B86 /* ADBMobile.h */,
+				C9EC04FE1D754D70A6D681A2 /* FacebookConnectPlugin.m */,
+				11D0C49001634FDFA8C48498 /* FacebookConnectPlugin.h */,
+				91E1CE68E0E14C4A8604E6A8 /* IonicKeyboard.m */,
+				FB04944774A547EAAE7F80D0 /* UIWebViewExtension.m */,
+				0CE8F0659F364A07BAC06BAA /* IonicKeyboard.h */,
+				AF8B290D37DB4D278F2E051B /* UIWebViewExtension.h */,
+				4F0A3032A79D469EA453C699 /* SQLitePlugin.m */,
+				D56E1242F3F64469BA69D4C9 /* SQLitePlugin.h */,
+				B38544EDB11848C4934E6050 /* YoikScreenOrientation.m */,
+				09D99CB0B4C341CD96F2FB1E /* YoikScreenOrientation.h */,
 			);
 			name = Plugins;
 			path = PhoneGap/Plugins;
@@ -620,6 +661,11 @@
 				1505AEA8D61D45319AEDA061 /* CDVNotification.m in Sources */,
 				2DA5FF0180BA41AAA234DE83 /* Insomnia.m in Sources */,
 				F94DDA4AFA3646BF91ECDF2B /* ADBMobile_PhoneGap.m in Sources */,
+				0EA7FE6D64E34A1F96CFDE14 /* FacebookConnectPlugin.m in Sources */,
+				42A6C3B3F1F5449687E2DC9E /* IonicKeyboard.m in Sources */,
+				745F77755E3642FF851860DD /* UIWebViewExtension.m in Sources */,
+				68921BBFA3E14D4A8C500884 /* SQLitePlugin.m in Sources */,
+				D98F679DBF8A43FDAF1A56E7 /* YoikScreenOrientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,6 +751,10 @@
 				PRODUCT_NAME = PhoneGap;
 				PROVISIONING_PROFILE = "be4d0145-3619-4c15-8587-fe34b9d21f61";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"PhoneGap/Plugins/com.phonegap.plugins.facebookconnect\"",
+				);
 			};
 			name = Debug;
 		};
@@ -742,6 +792,10 @@
 				PRODUCT_NAME = PhoneGap;
 				PROVISIONING_PROFILE = "be4d0145-3619-4c15-8587-fe34b9d21f61";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"PhoneGap/Plugins/com.phonegap.plugins.facebookconnect\"",
+				);
 			};
 			name = Release;
 		};

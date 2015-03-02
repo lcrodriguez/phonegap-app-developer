@@ -83,6 +83,10 @@
                         {
                             "xml": "<feature name=\"Insomnia\"><param name=\"wp-package\" value=\"Insomnia\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SQLitePlugin\"><param name=\"wp-package\" value=\"SQLitePlugin\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -197,6 +201,20 @@
             "PACKAGE_NAME": "{a4662b20-5edd-11e4-b7a8-67dfdc48afb0}"
         },
         "ADBMobile": {
+            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
+        },
+        "com.phonegap.plugins.facebookconnect": {
+            "APP_ID": "882548441785466",
+            "APP_NAME": "Fanatico",
+            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
+        },
+        "com.ionic.keyboard": {
+            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
+        },
+        "com.brodysoft.sqlitePlugin": {
+            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
+        },
+        "net.yoik.cordova.plugins.screenorientation": {
             "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
         }
     },

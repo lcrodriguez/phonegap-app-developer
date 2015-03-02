@@ -81,5 +81,18 @@
       <string>UIInterfaceOrientationPortraitUpsideDown</string>
       <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
+    <key>FacebookAppID</key>
+    <string>882548441785466</string>
+    <key>FacebookDisplayName</key>
+    <string>Fanatico</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb882548441785466</string>
+        </array>
+      </dict>
+    </array>
   </dict>
 </plist>
